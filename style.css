@@ -9,8 +9,19 @@ div#root {
     background: #F0F2F5;
     padding: 80px 0px;
     align-items: center;
-    align-items: center;
-    justify-content: center;
+    
+}
+.logo {
+    
+    background-color: #42B72A;
+    color: #1877f2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin-top: -500;
+    position:none;
+    
+    
+
 }
 #main2 {
     width: 396;
@@ -29,12 +40,17 @@ div#root {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    font-family:Helvetica, arial, sans-serif;
+    font-size: 18px;
+     
 }
 .email {
     width: 364px;
     height: 64px;
     margin: 0px 16px;
+    padding: 6px 0px;
+    margin-bottom: -10;
     
     
 }
@@ -46,7 +62,8 @@ div#root {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    border: solid 1px;
+    border: solid 1px #D7dade;
+    font-family:Helvetica, arial, sans-serif;
     
 }
 .password {
@@ -54,8 +71,7 @@ div#root {
     height: 64px;
     margin: 0px 16px;
     padding: 6px 0px;
-    
-    
+    margin-bottom: -10; 
 }
 .input2 {
     width: 364px;
@@ -66,6 +82,7 @@ div#root {
     margin-right: auto;
     border: solid 1px;
     border-radius: 5px;
+    border: solid 1px #D7dade;
     
    
 }
@@ -79,6 +96,11 @@ div#root {
 .login {
     width: 396px;
     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10;
+    
 }
 #input2 {
     width: 364px;
@@ -91,5 +113,80 @@ div#root {
     margin-right: auto;
     border: solid 1px;
     border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #D7dade;
+}
+#login1 {
+    color: #ffffff;
+    
+
+}
+.new_password {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+#new_password1 {
+    color: #1877f2;
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+#line1 {
+    width: 40%;
+    margin: 0px 15px 0px 16px;
+    display: flex;    
+    border: 1px solid #D7DADE;
+    
+}
+.or {
+    margin-right: auto;
+    margin-left: 47%;
+    margin-top: -12;  
+    display: flex;
+    align-items: center;
+    color: #96999E;
+    font-family: 12px Helvetica, arial, sans-serif;
+    
+    
 }
 
+#line2 {
+    width: 40%;
+    margin: 0px 15px 0px 0px;
+    display: flex;     
+    margin-top: -25;
+    border: 0.05px solid #D7DADE;
+    margin-left: auto;
+}
+.new_account {
+    display: flex;
+    width: 396px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15;
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 17px;
+
+}
+.new_account1 {
+    width: 166.16px;
+    height: 48px;
+    color: #ffffff;
+    background: #42B72A;
+    margin: transparent;
+    border: solid 1px;
+    border-radius: 5px;
+    /* Type of fonts*/
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 13;
+    text-align: center;
+    align-content: center;
+}
+
+/* icone do facebook */
+
+ 
