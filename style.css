@@ -9,27 +9,20 @@ div#root {
     background: #F0F2F5;
     padding: 80px 0px;
     align-items: center;
+    justify-content: center;
+    position: relative;
     
 }
-.logo {
-    
-    background-color: #42B72A;
-    color: #1877f2;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    margin-top: -500;
-    position:none;
-    
-    
 
-}
 #main2 {
     width: 396;
     height: 376.83;
     border-radius: 5px;
     background: white;
     box-shadow: 0 0 1em black;
-    
+    margin: auto 0;
+    display: block;
+    position: absolute;
     
 } 
 #primary {
@@ -188,5 +181,11 @@ div#root {
 }
 
 /* icone do facebook */
-
- 
+._97vu {
+    display: flex;
+    width: 240px;
+    background-color: transparent;
+    margin-top: -277;
+    margin-left: 47%
+    position: relative;
+}
