@@ -185,6 +185,6 @@ div#root {
     width: 240px;
     background-color: transparent;
     margin-top: -277;
-    margin-left: 47%;
     position: relative;
+    display: block;
 }
