@@ -23,6 +23,7 @@ div#root {
     margin: auto 0;
     display: block;
     position: absolute;
+    background-color: #1877f2;
     
 } 
 #primary {
@@ -35,7 +36,9 @@ div#root {
     align-items: center;
     justify-content: center;
     font-family:Helvetica, arial, sans-serif;
-    font-size: 18px;
+    font-size: 18px ;
+    
+    
      
 }
 .email {
@@ -98,7 +101,7 @@ div#root {
 #input2 {
     width: 364px;
     height: 48px;
-    background: #1877f2;
+    background: #ffffff;;
     display: flex;
     align-items: center;
     padding: 6px 0px;
@@ -111,7 +114,7 @@ div#root {
     border: solid 1px #D7dade;
 }
 #login1 {
-    color: #ffffff;
+    color: #1877f2
     
 
 }
@@ -123,7 +126,7 @@ div#root {
     
 }
 #new_password1 {
-    color: #1877f2;
+    color: #03060a;
     font-family: Helvetica, arial, sans-serif;
     font-size: 14px;
 }
